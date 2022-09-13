@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0; 
+}
+
+body{
+    background: linear-gradient(90deg, black 40%, #1c1c1c 55%)
+}
+/* ========================
+          NAV
+======================== */
+
+nav {
+   
+    letter-spacing: 2px;
+    line-height: 1.6;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    transition: 500ms;
+    color: white;
+    font-size: 2rem;
+    margin-left: 3rem;
+    text-decoration: none;
+    background-color: black;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #f7f7f7;
+}
+nav img{
+    max-width: 200px;
+    background-color: black;
+    margin-left: auto;
+}
+nav a:hover,
+nav a:active {
+    color: yellow;
+    text-shadow: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+/* =====
+project
+====== */
+
+.project {
+    box-shadow: 10px 5px 5px rgb(19, 16, 16);
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project img {
+
+    max-width: 400px;
+}
+
+.project h3 {
+    font-size: 2.2rem;
+    margin: 1rem auto;
+}
+
+.project .info {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+
+
+.project .info .link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project .info .link a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
