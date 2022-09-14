@@ -48,7 +48,7 @@ nav a:active {
 
 section {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     letter-spacing: 2px;
     line-height: 1.5;
 }
@@ -58,9 +58,9 @@ project
 ====== */
 
 .project {
-    box-shadow: 10px 5px 5px rgb(19, 16, 16);
+    
     color: white;
-    border: 5px solid black;
+    border: 5px solid rgba(20, 20, 20, 0.719);
     border-radius: 10px;
     margin: 3rem 3rem;
     display: flex;
@@ -76,13 +76,14 @@ project
 
 .project img {
     margin: 0 auto;
-    max-width: 400px;
+    display: block;
+    max-width: 310px;
 }
 
 
 
 .project h3 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     margin: 1rem auto;
 }
 
