@@ -1,3 +1,3 @@
-function download(){
+function ddownload() {
 console.log("chuj")
 }
