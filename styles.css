@@ -60,13 +60,21 @@ project
     margin: 3rem 3rem;
     display: flex;
     flex-direction: column;
-
+    transition: transform .2s;
 }
+
+
+.project:hover{
+    transform: scale(1.2)
+}
+
 
 .project img {
 
     max-width: 400px;
 }
+
+
 
 .project h3 {
     font-size: 2.2rem;
