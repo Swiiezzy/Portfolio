@@ -135,12 +135,8 @@ project
 .main {
     margin: auto;
     width: 80%;
-    border: 3px solid green;
-
 }
-
 .cv {
-
     display: block;
     max-width: 100%;
     margin: auto;
