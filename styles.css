@@ -149,15 +149,15 @@ project
     transform: scale(1.2)
 }
 .download {
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 100px;
+    max-width: 100px;
 }
 
 .adownload{
     font-size: 2rem;
     color: white;
     text-decoration: none;
-    max-height: 200px;
+    max-height: 100px;
     letter-spacing: 2px;
     transition: 500ms;
 }
