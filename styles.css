@@ -137,7 +137,13 @@ project
     width: 80%;
 }
 .cv {
+    transition: transform .2s;
     display: block;
     max-width: 100%;
     margin: auto;
+}
+
+
+.cv:hover{
+    transform: scale(1.2)
 }
