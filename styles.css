@@ -1,17 +1,18 @@
 * {
     padding: 0;
-    margin: 0; 
+    margin: 0;
 }
 
-body{
+body {
     background: linear-gradient(90deg, black 40%, #1c1c1c 55%)
 }
+
 /* ========================
           NAV
 ======================== */
 
 nav {
-   
+
     letter-spacing: 2px;
     line-height: 1.6;
     width: 100%;
@@ -23,18 +24,22 @@ nav {
 nav a {
     transition: 500ms;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 3rem;
     text-decoration: none;
     background-color: black;
     cursor: pointer;
     text-shadow: 1px 1px 1px #f7f7f7;
 }
-nav img{
+
+nav img {
     max-width: 200px;
     background-color: black;
+    margin: 5px;
     margin-left: auto;
+
 }
+
 nav a:hover,
 nav a:active {
     color: yellow;
@@ -64,14 +69,14 @@ project
 }
 
 
-.project:hover{
+.project:hover {
     transform: scale(1.2)
 }
 
 
 .project img {
-
-    max-width: 300px;
+    margin: 0 auto;
+    max-width: 400px;
 }
 
 
@@ -102,6 +107,3 @@ project
     text-decoration: none;
     color: yellow;
 }
-
-
-
