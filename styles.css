@@ -58,7 +58,7 @@ project
 ====== */
 
 .project {
-    
+
     color: white;
     border: 5px solid rgba(20, 20, 20, 0.719);
     border-radius: 10px;
@@ -107,4 +107,41 @@ project
     margin-right: 10px;
     text-decoration: none;
     color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =====
+  Cv HTML
+====== */
+
+.main {
+    margin: auto;
+    width: 80%;
+    border: 3px solid green;
+
+}
+
+.cv {
+
+    display: block;
+    max-width: 100%;
+    margin: auto;
 }
