@@ -133,6 +133,7 @@ project
 ====== */
 
 .main {
+    display: flex;
     margin: auto;
     width: 80%;
 }
@@ -146,4 +147,8 @@ project
 
 .cv:hover{
     transform: scale(1.2)
+}
+.download {
+    height: 200px;
+    max-width: 200px;
 }
